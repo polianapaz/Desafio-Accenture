@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="80.62">
+<testcase classname="Vehicle Insurance" name="Generate vehicle quote" time="80.007">
+<system-out><![CDATA[Given I access "http://sampleapp.tricentis.com/101/app.php" webpage.........passed
+When I fill out the form in the "Enter Vehicle Data" tab....................passed
+When I fill out the form in the "Enter Insurant Data" tab...................passed
+When I fill out the form in the "Enter Product Data" tab....................passed
+When I fill out the form in the "Select Price Option" tab...................passed
+When I fill out the form in the "Send Quote" tab............................passed
+Then A “Sending e-mail success!” message is displayed.......................passed
+]]></system-out>
+</testcase>
+</testsuite>

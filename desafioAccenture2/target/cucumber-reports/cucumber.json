@@ -1,0 +1,149 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-02T20:29:48.169Z",
+        "line": 4,
+        "name": "Generate vehicle quote",
+        "description": "",
+        "id": "vehicle-insurance;generate-vehicle-quote",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 39039000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I access \"http://sampleapp.tricentis.com/101/app.php\" webpage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://sampleapp.tricentis.com/101/app.php\"",
+                  "offset": 9
+                }
+              ],
+              "location": "StepDefinition.quoteSteps.iAccessWebpage(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7282000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I fill out the form in the \"Enter Vehicle Data\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Enter Vehicle Data\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinition.quoteSteps.iFillOutTheFormInTheTab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5093000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I fill out the form in the \"Enter Insurant Data\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Enter Insurant Data\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinition.quoteSteps.iFillOutTheFormInTheTab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4612000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I fill out the form in the \"Enter Product Data\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Enter Product Data\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinition.quoteSteps.iFillOutTheFormInTheTab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4980000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I fill out the form in the \"Select Price Option\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Select Price Option\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinition.quoteSteps.iFillOutTheFormInTheTab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18748000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I fill out the form in the \"Send Quote\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Send Quote\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinition.quoteSteps.iFillOutTheFormInTheTab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "A “Sending e-mail success!” message is displayed",
+            "match": {
+              "location": "StepDefinition.quoteSteps.aSendingEMailSuccessMessageIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@quote"
+          }
+        ]
+      }
+    ],
+    "name": "Vehicle Insurance",
+    "description": "",
+    "id": "vehicle-insurance",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/vehicleQuote.feature",
+    "tags": []
+  }
+]
